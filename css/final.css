@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: url("/assets/gamers.png");
+    background-size: cover;
+  }
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+}
+.cabecalho{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding:18px;
+    box-shadow: 0px 0px 10px 8px #18d4f1,
+    inset 0px 0px 10px 2px #18d4f1 ;
+    
+}
+h2{
+    text-align: center;
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+
+#comment-form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#comment-form label,
+#comment-form input,
+#comment-form textarea{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+#comments{
+    margin-top: 30px;
+}
+
+.comment{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.comment p{
+    margin: 0;
+}
+input{
+    background: #fff;
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #18d4f1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 18px;
+    background: rgba(0, 0, 0, 0.603);
+}
+input:hover{
+    text-transform: uppercase; 
+    color: #fff;  
+    box-shadow: 0 0 15px #18d4f1, inset 0 0 15px #18d4f1;
+    text-shadow: 0 0 15px #18d4f1;
+}
+.button{
+    display: flex;
+    justify-content:space-between;
+}
+#comment-form textarea{
+    display: block;
+    margin-bottom: 10px;
+    background: #fff;
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #18d4f1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 18px;
+    background: rgba(0, 0, 0, 0.603);
+}
+
+.comment{
+    background: rgba(0, 0, 0, 0.603) ;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 20px;
+    border: 2px solid #18d4f1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 18px;
+}
+button{
+    background: #fff;
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #18d4f1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 18px;
+}
+button:hover{
+    text-transform: uppercase; 
+    color: #fff;  
+    box-shadow: 0 0 15px #18d4f1, inset 0 0 15px #18d4f1;
+    text-shadow: 0 0 15px #18d4f1;
+}

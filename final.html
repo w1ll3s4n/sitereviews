@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="css/final.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Dragon's Review</h1>
+    </header>
+    <br>
+    <h2>Avalie o Site</h2>
+  <div id="comment-form">
+    <label for="username">Nome do Usuário:</label>
+    <input type="text" id="username" data-required data-only-letters>
+    <br>
+    <label for="rating">Avaliação (de 1 a 5):</label>
+    <input type="number" id="rating" data-min-length="1" data-max-length="5" required>
+    <br>
+    <label for="comment">Comentário:</label>
+    <textarea id="comment" rows="4" data-required></textarea>
+
+    <button onclick="submitComment()">Enviar Comentário</button>
+  </div>
+
+  <div id="comments">
+    <h2>Comentários e Avaliações:</h2>
+    <div id="comments-container"></div>
+  </div>
+  <br>
+  <div class="button">
+    <a href="index.html"><input type="button" value="Voltar"></a>
+</div>
+    <script src="js/final.js"></script>
+</body>
+</html>

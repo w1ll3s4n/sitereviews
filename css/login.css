@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #fff;
+    border: none;
+}
+body{
+    background-image: url('../assets/gamers.png');
+    background-size: cover;
+}
+form{
+        margin-top: 30px;
+        margin-bottom: 40px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+textarea, input{
+    background-color: transparent;
+}
+a, label{
+    font-size: 1rem;
+    color: #fff;
+    font-family: Arial;
+    
+}
+a:hover{ 
+    color: #18d4f1;
+}
+/*container-login*/
+#container-login{
+    background-color: #520959a2;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 30px;
+    margin-top: 10vh;
+    border-radius: 10% 10;
+    text-align: center;
+    box-shadow: 1px 2px 10px red, 3px 6px 20px purple;
+}
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: 2px solid #A91079;
+}
+#senha-esquecida{
+    text-align: right;
+    display:block
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid purple;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: purple;
+    cursor: pointer;
+    transition: 0.2s;
+}
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 10px 8px #18d4f1,
+    inset 0px 0px 10px 2px #18d4f1;
+    color: #fff;
+    border: #18d4f1;
+    background-color: #18d4f156;
+    transform: scale(1.05);
+}
+/*redes sociais*/
+#container-redes,#container-redes p{
+    margin-bottom: 20px;
+}
+#container-redes i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+}
+.fa-facebook{
+    background-color: #3b5998;
+    color: #fff;
+    
+}
+.fa-instagram{
+    background: linear-gradient( 45deg, #f58529, #feda77, #dd2a7b, #8134af, #515bd4);
+}
+.fa-google{
+   /* background:linear-gradient( 45deg,#FBBC05, #34A853,#EA4335,#4285F4 ) ;*/
+   color: #fff; 
+   /*
+position:initial;
+  border-top: 30px solid #EA4335;
+  border-right: 30px solid #4285F4;
+  border-bottom: 30px solid #34A853;
+  border-left: 30px solid #FBBC05;
+  
+ */   
+}
+/*registrar*/
+#container-registro p{
+    margin-bottom: 10px;
+}
+input::placeholder{
+    color: #ffffff91;
+}
