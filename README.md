@@ -1,0 +1,10 @@
+# sitereviews
+No dia 6 de março de 2023 o grupo reuniu-se para que através de um sorteio realizado pela coordenadora curso de técnico em informática para separar o tema que iríamos fazer para o projeto integrador. Através de um sorteio foi realizado a escolha do grupo, e em seguida a escolha do tema: “Criação de um Site de Reviews de Jogos”.
+Fazer um projeto baseado em uma necessidade real de criar uma aplicação web e ter uma navegação segura e de fácil acesso no computador. Desenvolver um sistema web com muitos recursos para facilitar a interação dos usuários com o site de reviews de jogos. 
+Para o desenvolvimento deste projeto utilizamos as seguintes tecnologias:
+HTML: No conteúdo foi estruturado em parágrafos, em uma lista com marcadores e usando imagens.
+CSS:  É com essa linguagem de estilização que Cuidamos da parte visual e estética do site de reviews: cores, fontes, espaçamentos entre parágrafos, variações de layouts, ajustes de imagem.
+JavaScript: Utilizando essa linguagem de programação que realizamos as validações.
+Com o trabalho verificamos que é de fundamental importância aplicar e relacionar conteúdos ligados à realidade dos usuários. Diante dessa prática foi possível estabelecer uma troca de interação entre o processo de criação do aplicativo de sites e os usuários que ocasionará um posicionamento crítico facilitando o aprendizado de manusear as linguagens de programação HTML, JavaScript e CSS.
+O aprendizado que adquirimos no processo da elaboração do projeto nos permitiu trazer reflexões sobre como criar um sistema de sites na atualidade, pois o número de sites de reviews são vários, pois, apresenta uma motivação por parte dos usuários com relação de sites de reviews de jogos, isso pode está acontecendo devido ao efeito pós-pandemia onde as pessoas estão buscando cada vez mais sites de aplicativos de jogos contextualizados com a realidade, bem como o interesse dos usuários em si com relação aos sites de reviews.
+Feito com carinho por Ana Júlia, Thaís Cruvinel, Thayná de Assis e Wallison Berbet. Sobre o autor Wallison Berbet entre em contato whattsap (34) 998330022 ou gmail wallisonberbet@gmail.com.
